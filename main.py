@@ -1,4 +1,4 @@
-geese = [10.5, 20.6, 30.7, 40.8, 50.9, 60.9, 70.9, 80.6, 90.4, 100.10]
+geese = ["ali", "mona", "sara", "nada", "marva", "halima", "majed"]
 
 
 def goose_filter(birds):
@@ -9,4 +9,4 @@ def goose_filter(birds):
     return filtered_birds
 
 
-print(goose_filter([10.7, 9.8, 8.9, 30.4]))
+print(goose_filter(["ali", "mona", "sara"]))
