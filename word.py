@@ -1,7 +1,8 @@
 
 def reverse_word(word):
-    # my_list = word.split(" ")
-    # my_list_reverse = my_list[::-1]
+    my_list = word.split(" ")
+    my_list_reverse = my_list[::-1]
+    my_reverse_words = " ".join(my_list_reverse)
     my_reverse_words = " ".join(word.split(" ")[::-1])
     return my_reverse_words
 
